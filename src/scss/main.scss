@@ -1,0 +1,18 @@
+/* Base */
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+@import "./base/utils";
+@import "./base/containers";
+@import "./base/sticky-footer";
+
+/* Blocks */
+@import "./blocks/*.scss";
+
+.logo{
+  background-image: url("../../img/01.jpg");
+  width: 100px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
